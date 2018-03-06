@@ -9,7 +9,7 @@ public class Area {
     /**
     * 主键ID
     **/
-    private int areaId;
+    private Integer areaId;
     /**
     * 区域名称
     **/
@@ -17,7 +17,7 @@ public class Area {
     /**
     * 优先级
     **/
-    private int priority;
+    private Integer priority;
     /**
     * 创建时间
     **/
@@ -28,12 +28,20 @@ public class Area {
     **/
     private Date lastEditTime;
 
-    public int getAreaId() {
+    public Integer getAreaId() {
         return areaId;
     }
 
-    public void setAreaId(int areaId) {
+    public void setAreaId(Integer areaId) {
         this.areaId = areaId;
+    }
+
+    public Integer getPriority() {
+        return priority;
+    }
+
+    public void setPriority(Integer priority) {
+        this.priority = priority;
     }
 
     public String getAreaName() {
@@ -44,13 +52,7 @@ public class Area {
         this.areaName = areaName;
     }
 
-    public int getPriority() {
-        return priority;
-    }
 
-    public void setPriority(int priority) {
-        this.priority = priority;
-    }
 
     public Date getCreateTime() {
         return createTime;
