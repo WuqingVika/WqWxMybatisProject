@@ -21,7 +21,7 @@ public class Area {
     /**
     * 创建时间
     **/
-    private Date createDate;
+    private Date createTime;
 
     /*
     * 更新时间
@@ -52,12 +52,12 @@ public class Area {
         this.priority = priority;
     }
 
-    public Date getCreateDate() {
-        return createDate;
+    public Date getCreateTime() {
+        return createTime;
     }
 
-    public void setCreateDate(Date createDate) {
-        this.createDate = createDate;
+    public void setCreateTime(Date createTime) {
+        this.createTime = createTime;
     }
 
     public Date getLastEditTime() {
