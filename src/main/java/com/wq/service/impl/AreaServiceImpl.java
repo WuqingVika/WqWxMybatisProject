@@ -25,7 +25,7 @@ public class AreaServiceImpl implements AreaService {
 
     @Override
     public Area getAreaById(int areaId) {
-        int i=1/0;//人为制造一个错误 看我们的自定义的异常是否能捕获到
+        //int i=1/0;//人为制造一个错误 看我们的自定义的异常是否能捕获到
         return areaDao.queryAreaById(areaId);
     }
 
